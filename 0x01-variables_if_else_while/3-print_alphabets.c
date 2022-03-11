@@ -1,34 +1,18 @@
-#include <stdio.h>
+#include<stdio.h>
 /**
- * main - Print alphabet in lowercase then in uppercase
+ * main - prints alphabet small then big
  *
- * Return: 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char letter;
+	char alph[52] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	int i;
 
-	letter = 'a';
-	while (letter <= 'z')
+	for (i = 0; i < 52; i++)
 	{
-		putchar(letter;
-		/* jump to uppercase when finishing lowercase */
-		if (letter == 'z')
-		{
-			putchar(letter);
-			/*jump to uppercase when finishing lowercase */
-			if (letter == 'z')
-			{
-				letter = 'A';
-				break;
-			}
-			letter++;
-		}
-	while (letter <= 'Z')
-	{
-		putchar(letter);
-		letter++;
+		putchar(alph[i]);
 	}
 	putchar('\n');
-	return(0);
-}	
+	return (0);
+}
