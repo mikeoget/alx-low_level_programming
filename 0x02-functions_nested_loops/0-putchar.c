@@ -10,7 +10,7 @@ int main(void)
 	
 	int c;
 	
-	for (C=0; C < 8; C++)
+	for (c = 0; c < 8; c++)
 	{
 		_putchar(ermais[c]);
 	}
