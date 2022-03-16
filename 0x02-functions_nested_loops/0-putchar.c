@@ -1,21 +1,19 @@
-#include <unistd.h>
 #include "main.h"
 /**
- * main - Putchar
- *
- * _putchar print the characters given
- * Return: Always 0 (Success)
+ * main - entry block
+ * @void: no argument
+ * Return: 0
  */
 int main(void)
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
+	char ermais[] = "_putchar";
+	
+	int c;
+	
+	for (C=0; C < 8; C++)
+	{
+		_putchar(ermais[c]);
+	}
 	_putchar('\n');
 	return (0);
 }
