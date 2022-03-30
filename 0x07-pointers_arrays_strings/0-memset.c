@@ -2,7 +2,7 @@
 /**
  * _memset - writes to memory
  * @s: pointer to memory
- * @b: thing to write 
+ * @b: thing to write
  * @n: bytes
  * Return: s
  */
@@ -11,7 +11,7 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int i;
 
-	for(i= 0; i < n; i++)
+	for (i = 0; i < n; i++)
 	{
 		*(s + i) = b;
 	}
